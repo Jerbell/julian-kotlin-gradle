@@ -7,7 +7,7 @@ class DeepThoughtTest {
 
     @Test
     fun `meaning of life = 42`() {
-        assertThat(DeepThought.compute()).isEqualTo(43)
+        assertThat(DeepThought.compute()).isEqualTo(42)
     }
 
 }
