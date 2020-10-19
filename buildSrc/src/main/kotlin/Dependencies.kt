@@ -8,7 +8,7 @@ object Versions {
 object Libs {
     val guava = "com.google.guava:guava-gwt:${Versions.guava}"
 
-    val junit = "org.junit.jupiter:junit-jupiter:${Versions.junit}"
+    val junit = "org.junit.jupiter:junit-jupiter-api:${Versions.junit}"
     val assertj = "org.assertj:assertj-core:${Versions.assertj}"
 }
 

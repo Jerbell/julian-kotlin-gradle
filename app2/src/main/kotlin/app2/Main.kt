@@ -4,7 +4,7 @@ package app2
 import com.google.common.base.Strings
 import shared.DeepThought
 
-fun main(vararg args: String) {
+fun main() {
     println(Strings.repeat("2", 42))
 
     val answer = DeepThought.compute()
